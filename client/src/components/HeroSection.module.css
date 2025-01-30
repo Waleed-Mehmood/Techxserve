@@ -1,0 +1,131 @@
+   .heroContainer {
+    background-color: #000000;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: sans-serif;
+    position: relative;
+    z-index: 111;
+  }
+  
+  .navbarBrand {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+
+  .navLink {
+    color: white !important;
+    transition: color 0.3s ease; 
+  }
+  
+  .navLink:hover {
+    color: #dc3545 !important;
+  }
+  
+  .heroContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    padding: 0 1.5rem;
+    text-align: left; 
+    
+  }
+  
+  .heroText {
+    z-index: 10;
+    margin-top: 5rem;
+    margin-left: 5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .heroTitle {
+    font-size: 4rem; 
+    font-weight: bold;
+    margin-bottom: 2rem;
+    text-align: left; 
+  }
+  
+  .heroDescription {
+    color: white;
+    line-height: 1.75;
+    max-width: 42rem;
+    text-align: left; 
+    max-width: 500px;
+  }
+  
+  .heroOverlay {
+    inset: 0;
+    background: linear-gradient(to right, black, black, transparent);
+    opacity: 0.7;
+  }
+  
+  .heroStats {
+    position: absolute;
+    top: 50%;
+    left: 89%;
+    transform: translateY(-50%);
+    text-align: right;
+    z-index: 10;
+  }
+  
+  .heroStatValue {
+    font-size: 1.875rem;
+    font-weight: bold;
+    color: #dc3545;
+  }
+  
+  .heroStatLabel {
+    color: #9ca3af;
+    font-size: 0.875rem;
+  }
+  
+  .heroTitleLarge {
+    font-size: 14vw;
+    font-weight: 800;
+    color: #000000;
+    letter-spacing: 0.5rem;
+    margin-bottom: 0px !important;
+    position: relative;
+    z-index: 9;
+    margin-top: -5%;
+  }
+  
+ 
+  @media (max-width: 768px) {
+    .heroText {
+      margin-top: 5rem;
+      margin-left: 0;
+    }
+    .heroTitleLarge {
+      font-size: 13vw;
+      margin-top: -4%;
+    }
+  }
+
+  @media (max-width: 900px) {
+    .heroStats {
+      display: none;
+    }
+  }
+
+  @media (max-width: 992px) {
+    .heroText {
+      margin-top: 3rem;
+    }
+  }
+  @media (max-width: 576px) {
+    .heroText {
+      margin-top: 2rem;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .heroTitleLarge {
+      font-size: 12vw;
+      margin-top: -3%;
+    }
+  }
+
+  

@@ -1,0 +1,251 @@
+.missionSection {
+  text-align: center;
+  padding: 40px 20px;
+  position: relative;
+}
+
+.halfCircle {
+  position: absolute;
+  top: -104px;
+  right: 100px;
+  width: 200px;
+  height: 200px;
+  background-color: #dc3545;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.halfCircleBottom {
+  position: absolute;
+  bottom: -70px;
+  left: 24%;
+  width: 200px;
+  height: 200px;
+  background-color: #dc3545;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.missionSectionDiv2 {
+  padding: 0 30px;
+  position: relative;
+}
+
+.servicesTitle {
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: #4f0101;
+}
+
+.missionTitle {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #300303;
+  text-align: left;
+}
+
+.missionContent {
+  text-align: left;
+  max-width: 900px;
+  padding: 0 10px;
+  border-left: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+}
+
+.missionDescription {
+  font-size: 1.1rem;
+  color: #333;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.highlight {
+  color: #dc3545;
+  font-weight: bold;
+}
+
+.serviceSection {
+  padding: 2rem 3rem;
+  position: relative;
+  z-index: 9;
+}
+
+.servicesRow {
+  margin-top: 30px;
+}
+
+.serviceCard {
+  position: relative;
+  border: none;
+  overflow: hidden;
+  text-align: center;
+  margin: 0 1.6rem;
+  transition: transform 0.4s ease-in-out; /* Added smooth transition for the card */
+}
+
+.cardImageWrapper {
+  position: relative;
+  transition: opacity 0.4s ease, height 0.4s ease; /* Smooth transition for the image and overlay */
+  opacity: 1; /* Ensure the image is always visible */
+}
+
+.cardImage {
+  height: 250px;
+  object-fit: cover;
+  width: 100%;
+  opacity: 0.8;
+  transition: opacity 0.4s ease; /* Smooth transition for opacity change */
+}
+
+.imageTitleOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(100 4 4 / 71%);
+  z-index: 2;
+  opacity: 1;
+  transition: opacity 0.4s ease; /* Smooth transition for opacity change */
+}
+
+.imageTitle {
+  color: #ffffff;
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-align: left;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+  margin: 0;
+  position: absolute;
+  bottom: 25px;
+  padding: 0 3.4rem 0 0.7rem;
+  transition: opacity 0.4s ease; /* Smooth transition for text opacity */
+}
+
+.cardTitle {
+  font-size: 1.5rem !important;
+  font-weight: 700 !important;
+  text-align: left;
+}
+
+.headingLine {
+  border: 1px solid #dc3545;
+  width: 60%;
+}
+
+.cardText {
+  text-align: left;
+  margin-top: 4px;
+}
+
+.cardBody {
+  padding: 20px;
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+  transition: opacity 0.4s ease, height 0.4s ease;
+}
+
+.serviceCard:hover .cardBody {
+  opacity: 1; /* Show the body content */
+  height: auto;
+  padding: 20px;
+}
+
+.serviceCard:hover .imageTitleOverlay {
+  opacity: 1; /* Ensure the overlay title remains visible */
+}
+
+.serviceCard:hover .cardImageWrapper {
+  opacity: 1; /* Ensure the card image remains visible */
+}
+
+.serviceCard:hover .imageTitle {
+  opacity: 1; /* Ensure the title text remains visible */
+}
+
+.readMore {
+  font-weight: bold;
+  color: #dc3545;
+  text-decoration: none;
+  float: left;
+  padding: 0px;
+}
+
+@media (max-width: 1180px) {
+  .serviceCard {
+    margin: 0;
+  }
+}
+
+@media (max-width: 992px) {
+  .serviceSection {
+    padding: 1rem;
+  }
+  .missionTitle {
+    font-size: 2rem;
+  }
+  .missionDescription {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 776px) {
+  .servicesTitle {
+    font-size: 2.5rem;
+    margin-top: 1rem;
+  }
+  .missionTitle {
+    font-size: 1.8rem;
+  }
+  .imageTitle {
+    font-size: 1.7rem;
+  }
+  .cardTitle {
+    font-size: 1.3rem !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .missionSectionDiv2 {
+    padding: 0;
+  }
+  .servicesTitle {
+    font-size: 2.2rem;
+  }
+  .missionTitle {
+    font-size: 1.6rem;
+  }
+  .missionDescription {
+    font-size: 0.9rem;
+  }
+  .cardTitle {
+    font-size: 1.2rem !important;
+  }
+  .imageTitle {
+    font-size: 1.5rem;
+  }
+  .halfCircle, .halfCircleBottom {
+    display: none;
+  }
+}
+
+.serviceSlide {
+  padding: 15px; /* Add padding around the slide */
+}
+
+.slick-dots {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.slick-prev, .slick-next {
+  background-color: rgba(0, 0, 0, 0.5); /* Add background color for navigation arrows */
+  border-radius: 50%;
+}
+

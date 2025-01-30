@@ -1,0 +1,203 @@
+.contactSection {
+    padding: 50px 0;
+    position: relative;
+}
+  
+.leftSection {
+    text-align: left;
+    padding: 30px;
+}
+  
+.title {
+    text-align: center;
+    font-size: 3.5rem;
+    color: #4f0101;
+    font-weight: 800;
+    margin-bottom: 2rem;
+}
+  
+.subtitle {
+    font-size: 43px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+  
+.description {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 50px;
+}
+  
+.contactInfo p {
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+
+.contactInfoText {
+  font-weight: bold;
+}
+  
+.socialIcons {
+    display: flex;
+    gap: 10px;
+}
+  
+.icon {
+    font-size: 24px;
+    cursor: pointer;
+    color: #333;
+    transition: 0.3s;
+}
+  
+.icon:hover {
+    color: #540000;
+}
+  
+.rightSection {
+    background: #540000;
+    color: white;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.rightSectionTop{
+    margin: 0 1rem;
+}
+  
+.formTitle {
+    font-size: 25px;
+    font-weight: 800;
+}
+  
+.formSubtitle {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+  
+.input, .textarea {
+    background-color: transparent !important;
+    border: 2px solid white !important; 
+    color: white !important;
+    padding: 10px !important;
+    border-radius: 10px !important; 
+    width: 100% !important;
+    margin-bottom: 15px !important;
+}
+  
+.input::placeholder, .textarea::placeholder {
+    color: rgba(255, 255, 255, 0.8);
+}
+  
+.textarea {
+    resize: none;
+}
+  
+.submitBtn {
+    background: white;
+    color: #540000;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 20px;
+    width: 100%;
+    border: none;
+    transition: 0.3s;
+}
+  
+.submitBtn:hover {
+    background: #ccc;
+    color: #540000;
+}
+  
+.inputLabel {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+  
+.contactFormPad {
+    padding: 10px;
+}
+  
+.halfCircleContact {
+    position: absolute;
+    top: -104px;
+    right: 20%;
+    width: 200px;
+    height: 200px;
+    background-color: #dc3545;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+/* Hide the half-circle on smaller screens */
+@media (max-width: 992px) {
+    .halfCircleContact {
+        display: none;
+    }
+}
+
+/* Responsive font sizes for tablets and mobile screens */
+@media (max-width: 767px) {
+    .title {
+        font-size: 2.5rem;
+        margin-bottom: 0px;
+    }
+
+    .subtitle {
+        font-size: 30px;
+    }
+
+    .description {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .formTitle {
+        font-size: 22px;
+    }
+
+    .formSubtitle {
+        font-size: 14px;
+    }
+
+    .inputLabel {
+        font-size: 14px;
+    }
+
+    .contactInfo p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .title {
+        font-size: 2.2rem;
+    }
+
+    .subtitle {
+        font-size: 26px;
+    }
+
+    .description {
+        font-size: 15px;
+    }
+
+    .formTitle {
+        font-size: 20px;
+    }
+
+    .formSubtitle {
+        font-size: 13px;
+    }
+
+    .inputLabel {
+        font-size: 13px;
+    }
+
+    .contactInfo p {
+        font-size: 14px;
+    }
+}
