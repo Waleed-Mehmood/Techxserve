@@ -10,7 +10,7 @@
   right: 100px;
   width: 200px;
   height: 200px;
-  background-color: #dc3545;
+  background-color: #8B0101;
   border-radius: 50%;
   overflow: hidden;
 }
@@ -21,7 +21,7 @@
   left: 24%;
   width: 200px;
   height: 200px;
-  background-color: #dc3545;
+  background-color: #8B0101;
   border-radius: 50%;
   overflow: hidden;
 }
@@ -60,7 +60,7 @@
 }
 
 .highlight {
-  color: #dc3545;
+  color: #FF0F0F;
   font-weight: bold;
 }
 

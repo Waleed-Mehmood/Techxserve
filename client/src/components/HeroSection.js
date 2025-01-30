@@ -60,8 +60,8 @@ const HeroSection = () => {
           <h1 className={`${styles.heroTitle} display-4 fw-bold`}>Your Digital Success Partner</h1>
           <p className={`${styles.heroDescription} lead`}>
             Our Software House Embarks On A Mission To Create{" "}
-            <span className="text-danger">Digital Excellence</span> And{" "}
-            <span className="text-danger">Technical Expertise</span> With A Blend
+            <span className={styles.highlight}>Digital Excellence</span> And{" "}
+            <span className={styles.highlight}>Technical Expertise</span> With A Blend
             Of Creativity To Sculpt Admirable Software Solutions. We Aim To Empower
             Businesses With Top Tier Applications That Enhance Efficiency.
           </p>

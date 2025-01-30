@@ -73,7 +73,7 @@
   .heroStatValue {
     font-size: 1.875rem;
     font-weight: bold;
-    color: #dc3545;
+    color: #FF0F0F;
   }
   
   .heroStatLabel {
@@ -90,6 +90,10 @@
     position: relative;
     z-index: 9;
     margin-top: -5%;
+  }
+
+  .highlight {
+    color: #FF0F0F;
   }
   
  
