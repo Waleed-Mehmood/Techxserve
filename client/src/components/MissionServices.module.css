@@ -143,17 +143,17 @@
 
 .cardBody {
   padding: 20px;
-  opacity: 0;
-  height: 0;
+  opacity: 1;
+  height: auto;
   overflow: hidden;
   transition: opacity 0.4s ease, height 0.4s ease;
 }
 
-.serviceCard:hover .cardBody {
-  opacity: 1; /* Show the body content */
+/* .serviceCard:hover .cardBody {
+  opacity: 1;
   height: auto;
   padding: 20px;
-}
+} */
 
 .serviceCard:hover .imageTitleOverlay {
   opacity: 1; /* Ensure the overlay title remains visible */

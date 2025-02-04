@@ -14,19 +14,19 @@ const services = [
     title: "Software Development",
     image: softwareDevImg,
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "TechXserve specializes in innovative software development services, offering tailored solutions that address the unique needs of businesses. We create high-quality, scalable, and efficient software to optimize operations and drive growth",
   },
   {
     title: "Content Marketing",
     image: contentImg,
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "TechXserve specializes in content marketing services, creating tailored strategies that resonate with your target audience. From blog posts to social media content, we ensure your brand message is engaging and impactful",
   },
   {
     title: "Social Media Marketing",
     image: socialMediaImg,
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "TechXserve specializes in social media marketing, enhancing brand presence across platforms with tailored strategies. We help businesses grow by creating engaging content and building strong customer connections",
   },
 ];
 

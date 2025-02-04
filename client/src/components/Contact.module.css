@@ -130,6 +130,7 @@
     background-color: #8B0101;
     border-radius: 50%;
     overflow: hidden;
+    z-index: -10;
 }
 
 /* Hide the half-circle on smaller screens */

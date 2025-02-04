@@ -39,12 +39,10 @@ const Projects = () => {
               <Card className={styles.projectCard}>
                 <Card.Body>
                   <Card.Title className={styles.cardTitle}>
-                    Project Name
+                  Tradxsell
                   </Card.Title>
                   <Card.Text className={styles.cardText}>
-                    Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit, Sed
-                    Do Eiusmod Tempor Incididunt Ut Labore Et Dolore Magna
-                    Aliqua. Ut Enim Ad Minim Veniam.
+                  TradXSell is a secure online marketplace that connects buyers and sellers for seamless transactions of high-quality products
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -53,12 +51,10 @@ const Projects = () => {
               <Card className={styles.projectCard}>
                 <Card.Body>
                   <Card.Title className={styles.cardTitle}>
-                    Project Name
+                  Accobees
                   </Card.Title>
                   <Card.Text className={styles.cardText}>
-                    Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit, Sed
-                    Do Eiusmod Tempor Incididunt Ut Labore Et Dolore Magna
-                    Aliqua. Ut Enim Ad Minim Veniam.
+                  Accobee simplifies business financial management with expert bookkeeping, tax services, and innovative software solutions
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -72,18 +68,10 @@ const Projects = () => {
               <Card className={styles.projectCard}>
                 <Card.Body>
                   <Card.Title className={styles.cardTitle}>
-                    Project Name
+                    Xephra
                   </Card.Title>
                   <Card.Text className={styles.cardText}>
-                    Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit, Sed
-                    Do Eiusmod Tempor Incididunt Ut Labore Et Dolore Magna
-                    Aliqua. Ut Enim Ad Minim Veniam.Lorem Ipsum Dolor Sit Amet,
-                    Consectetur Adipiscing Elit, Sed Do Eiusmod Tempor
-                    Incididunt Ut Labore Et Dolore Magna Aliqua. Ut Enim Ad
-                    Minim Veniam.Lorem Ipsum Dolor Sit Amet, Consectetur
-                    Adipiscing Elit, Sed Do Eiusmod Tempor Incididunt Ut Labore
-                    Et Dolore Magna Aliqua. Ut Enim Ad Minim Veniam.Lorem Ipsum
-                    Dolor Sit Amet, Consectetur Adipiscing Elit.
+                  Xephra is an innovative gaming tournament platform designed to bring competitive gamers together in a thrilling, rewarding environment. Players can register for exciting gaming events by signing up and making a payment, gaining access to various tournaments across different games. With each tournament, participants compete to rank high and win a share of the pool prize, adding an extra layer of excitement and motivation. Xephra creates a seamless, user-friendly experience for gamers, challenge others, and earn rewards in a dynamic gaming community. Whether you're a casual gamer or a competitive pro.
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -97,13 +85,10 @@ const Projects = () => {
               <Card className={styles.projectCard}>
                 <Card.Body>
                   <Card.Title className={styles.cardTitle}>
-                    Project Name
+                    Teskha
                   </Card.Title>
                   <Card.Text className={styles.cardText}>
-                    Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit, Sed
-                    Do Eiusmod Tempor Incididunt Ut Labore Et Dolore Magna
-                    Aliqua. Ut Enim Ad Minim Veniam.Lorem Ipsum Dolor Sit Amet,
-                    Consectetur Adipiscing Elit, Sed Do Eiusmod.
+                  Teskha Technologies revolutionizes education with cutting-edge digital solutions, empowering institutions to enhance learning and streamline operations. Our mission is to drive innovation, making education more accessible, efficient, and future-ready
                   </Card.Text>
                 </Card.Body>
               </Card>

@@ -4,7 +4,9 @@ import styles from "./HeroSection.module.css";
 import logoImage from "../assets/logo.png";
 
 
-const HeroSection = () => {
+const HeroSection = ({ scrollToSection, refs }) => {
+  const { aboutRef, clientsRef, servicesRef, projectsRef, contactRef } = refs;
+
   const vantaRef = useRef(null);
   useEffect(() => {
     if (!window.VANTA || !window.VANTA.NET) return;
@@ -30,6 +32,10 @@ const HeroSection = () => {
     };
   }, []);
 
+  const handleClicked = (ref) => {
+    scrollToSection(ref);
+  };
+
   return (
     <div>
       <div className={`${styles.heroContainer} container-fluid`}>
@@ -45,11 +51,12 @@ const HeroSection = () => {
           <Navbar.Toggle aria-controls="navbarNav" />
           <Navbar.Collapse id="navbarNav">
             <Nav className="ms-auto">
-              <Nav.Link href="#" className={`mx-2 ${styles.navLink}`} >ABOUT US</Nav.Link>
-              <Nav.Link href="#" className={`mx-2 ${styles.navLink}`}>OUR CLIENTS</Nav.Link>
-              <Nav.Link href="#" className={`mx-2 ${styles.navLink}`}>SERVICES</Nav.Link>
-              <Nav.Link href="#" className={`mx-2 ${styles.navLink}`}>PROJECTS</Nav.Link>
-              <Nav.Link href="#" className={`mx-2 ${styles.navLink}`}>CONTACT US</Nav.Link>
+              <Nav.Link href="#" className={`mx-2 ${styles.navLink}`} onClick={() => handleClicked(servicesRef)} >ABOUT US</Nav.Link>
+              <Nav.Link href="#" className={`mx-2 ${styles.navLink}`} onClick={() => handleClicked(clientsRef)}>CLIENTS</Nav.Link>
+              <Nav.Link  className={`mx-2 ${styles.navLink}`} onClick={() => handleClicked(servicesRef)}
+              >SERVICES</Nav.Link>
+              <Nav.Link href="#" className={`mx-2 ${styles.navLink}`} onClick={() => handleClicked(projectsRef)}>PROJECTS</Nav.Link>
+              <Nav.Link href="#" className={`mx-2 ${styles.navLink}`} onClick={() => handleClicked(contactRef)}>CONTACT US</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
