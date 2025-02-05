@@ -7,31 +7,6 @@ import logoImage from "../assets/logo.png";
 const HeroSection = ({ scrollToSection, refs }) => {
   const { aboutRef, clientsRef, servicesRef, projectsRef, contactRef } = refs;
 
-  const vantaRef = useRef(null);
-  useEffect(() => {
-    if (!window.VANTA || !window.VANTA.NET) return;
-
-    const vantaEffect = window.VANTA.NET({
-      el: vantaRef.current,
-      mouseControls: true,
-      touchControls: true,
-      gyroControls: false,
-      minHeight: 100.0,
-      minWidth: 100.0,
-      scale: 1.0,
-      scaleMobile: 1.0,
-      color: 0x808080,
-      backgroundColor: 0x000000,
-      points: 15.0,
-      maxDistance: 24.0,
-      spacing: 16.0,
-    });
-
-    return () => {
-      if (vantaEffect) vantaEffect.destroy(); // Cleanup effect on unmount
-    };
-  }, []);
-
   const handleClicked = (ref) => {
     scrollToSection(ref);
   };
@@ -62,7 +37,7 @@ const HeroSection = ({ scrollToSection, refs }) => {
         </Container>
       </Navbar>
 
-      <div ref={vantaRef} className={`${styles.heroContent} d-flex flex-column justify-content-start align-items-start`}>
+      <div className={`${styles.heroContent} d-flex flex-column justify-content-start align-items-start`}>
         <div className={styles.heroText}>
           <h1 className={`${styles.heroTitle} display-4 fw-bold`}>Your Digital Success Partner</h1>
           <p className={`${styles.heroDescription} lead`}>

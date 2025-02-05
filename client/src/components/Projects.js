@@ -1,9 +1,14 @@
 import React from "react";
 import styles from "./Projects.module.css";
 import { Container, Row, Col, Card } from "react-bootstrap";
-import Logo1 from "../assets/logo1.png";
-import Logo2 from "../assets/logo2.png";
-import Logo3 from "../assets/logo3.png";
+import Logo1 from "../assets/logos/accobee.png";
+import Logo2 from "../assets/logos/Bizzkonn.png";
+import Logo3 from "../assets/logos/bonita.png";
+import Logo4 from "../assets/logos/luna-care.avif";
+// import Logo5 from "../assets/logos/techxserve.png";
+import Logo6 from "../assets/logos/teskha.png";
+import Logo7 from "../assets/logos/tradxsell.png";
+import Logo8 from "../assets/logos/xephra.png";
 
 const Projects = () => {
   return (
@@ -12,7 +17,7 @@ const Projects = () => {
         <Col xs={12} className={styles.logoContainer}>
           <div className={styles.logoTrack}>
             {Array(15) // Duplicate the list 10 times for smooth scrolling
-              .fill([Logo1, Logo2, Logo3])
+              .fill([Logo1, Logo2, Logo3, Logo4, Logo6, Logo7, Logo8])
               .flat()
               .map((logo, index) => (
                 <img
