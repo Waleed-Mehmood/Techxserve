@@ -5,6 +5,7 @@ import Projects from "../components/Projects";
 import Contact from "../components/Contact";
 import styles from "./Home.module.css";
 import OurProjects from "../components/OurProjects";
+import UpcomingProjects from "../components/UpcomingProjects";
 
 const Home = () => {
   const aboutRef = useRef(null);
@@ -33,6 +34,9 @@ const Home = () => {
       </div>
       <div ref={projectsRef}>
         <OurProjects />
+      </div>
+      <div>
+        <UpcomingProjects/>
       </div>
 
       <div ref={contactRef}>

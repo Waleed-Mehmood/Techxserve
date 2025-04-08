@@ -145,7 +145,7 @@ const OurProjects = () => {
 
   return (
     <div className="container mt-4">
-      <h2 className="text-center servicesTitle-text pb-4 pt-4">Our Projects</h2>
+      <h2 className="text-center servicesTitle-text pb-4 pt-4">Latest Projects</h2>
       <div className="row">
         {projects.map((project) => (
           <div key={project.id} className="col-md-4 mb-4">

@@ -61,7 +61,7 @@ const Contact = () => {
         <Col xs={12} md={5} className={styles.rightSection}>
           <div className={styles.contactFormPad}>
             <h4 className={styles.formTitle}>Become a Partner</h4>
-            <Form action="https://formsubmit.co/mrwajidalikhan42111@gmail.com" method="POST">
+            <Form action="https://formsubmit.co/techxserve@gmail.com" method="POST">
               <Form.Group>
                 <span className={styles.inputLabel}>What’s your name?*</span>
                 <Form.Control

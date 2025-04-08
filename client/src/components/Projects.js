@@ -56,7 +56,7 @@ const Projects = () => {
               <Card className={styles.projectCard}>
                 <Card.Body>
                   <Card.Title className={styles.cardTitle}>
-                  Accobees
+                  Accobee
                   </Card.Title>
                   <Card.Text className={styles.cardText}>
                   Accobee simplifies business financial management with expert bookkeeping, tax services, and innovative software solutions
@@ -76,7 +76,7 @@ const Projects = () => {
                     Xephra
                   </Card.Title>
                   <Card.Text className={styles.cardText}>
-                  Xephra is an innovative gaming tournament platform designed to bring competitive gamers together in a thrilling, rewarding environment. Players can register for exciting gaming events by signing up and making a payment, gaining access to various tournaments across different games. With each tournament, participants compete to rank high and win a share of the pool prize, adding an extra layer of excitement and motivation. Xephra creates a seamless, user-friendly experience for gamers, challenge others, and earn rewards in a dynamic gaming community. Whether you're a casual gamer or a competitive pro.
+                  Xephra is an innovative gaming tournament platform designed to bring competitive gamers together in a thrilling and rewarding environment. Players can register for exciting gaming events by signing up and making a payment, gaining access to various tournaments across different games. In each tournament, participants compete to rank high and win a share of the prize pool, adding an extra layer of excitement and motivation. Xephra creates a seamless, user-friendly experience for gamers to challenge others and earn rewards in a dynamic gaming community.
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -93,7 +93,7 @@ const Projects = () => {
                     Teskha
                   </Card.Title>
                   <Card.Text className={styles.cardText}>
-                  Teskha Technologies revolutionizes education with cutting-edge digital solutions, empowering institutions to enhance learning and streamline operations. Our mission is to drive innovation, making education more accessible, efficient, and future-ready
+                  Teskha Technologies revolutionizes education with cutting-edge solutions, empowering institutions to enhance learning and streamline operations. Our mission is to drive innovation by making education more accessible and future-ready.
                   </Card.Text>
                 </Card.Body>
               </Card>
