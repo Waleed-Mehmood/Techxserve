@@ -82,13 +82,13 @@ const projects = [
   },
   {
     id: 6,
-    title: "AnsabGull",
+    title: "RS",
     description:
-      "AnsabGul is an online clothing store offering a curated collection of stylish, high-quality apparel for every occasion",
+      "RS is an online clothing store offering a curated collection of stylish, high-quality apparel for every occasion",
     longDescription:
-      "AnsabGul is a premier online clothing store dedicated to offering a sophisticated and diverse range of fashion-forward apparel for men and women. With a focus on quality, style, and affordability, we bring the latest trends and timeless wardrobe staples directly to your doorstep. Our collection is thoughtfully curated to cater to a variety of tastes, whether you're looking for everyday essentials, elegant pieces for special occasions, or bold statements that make you stand out. At AnsabGul, we prioritize both comfort and style, ensuring that every piece is crafted with care and designed to offer versatility and lasting wear. We strive to create a seamless shopping experience, providing our customers with top-notch service, fast shipping, and clothing that elevates their personal style.",
+      "RS is a premier online clothing store dedicated to offering a sophisticated and diverse range of fashion-forward apparel for men and women. With a focus on quality, style, and affordability, we bring the latest trends and timeless wardrobe staples directly to your doorstep. Our collection is thoughtfully curated to cater to a variety of tastes, whether you're looking for everyday essentials, elegant pieces for special occasions, or bold statements that make you stand out. At AnsabGul, we prioritize both comfort and style, ensuring that every piece is crafted with care and designed to offer versatility and lasting wear. We strive to create a seamless shopping experience, providing our customers with top-notch service, fast shipping, and clothing that elevates their personal style.",
     image: ansab,
-    client: "Ansab Gul",
+    client: "RS",
     duration: "1 months",
     technologies: ["Shopify"],
     link: "https://ansabgull94.wixstudio.com/my-site",

@@ -60,12 +60,6 @@ const UpcomingProjects = () => {
               <div className="card-body">
                 <h5 className="card-title">{project.title}</h5>
                 <p className="card-text">{project.description}</p>
-                <Button
-                  style={{ backgroundColor: "#8b0101", border: "none" }}
-                  onClick={() => handleShowModal(project)}
-                >
-                  View Details
-                </Button>
               </div>
             </div>
           </div>
