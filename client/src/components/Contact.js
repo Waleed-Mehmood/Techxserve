@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styles from "./Contact.module.css";
 import { Form, Container, Row, Col } from "react-bootstrap";
-import { FaPhoneAlt, FaMapMarkerAlt, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaPhoneAlt, FaMapMarkerAlt, FaInstagram, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -46,6 +46,7 @@ const Contact = () => {
           <p className={styles.description}>Let’s make your vision a reality.</p>
           <div className={styles.contactInfo}>
             <p><FaPhoneAlt /> +92 339 0018363</p>
+            <p><FaEnvelope /> techxserve@email.com</p>
             <p><FaMapMarkerAlt /> DHA phase 2</p>
           </div>
           <div className={styles.socialIcons}>

@@ -12,11 +12,12 @@ import ansab from "../assets/projects/ansabgull94.wixstudio.com_my-site.png";
 import bonita from "../assets/projects/bonitanails.shop_.png";
 import xephra from "../assets/projects/xephra.vercel.app_.png";
 import alrahid from "../assets/projects/alrahid.png";
+import sixthledger from "../assets/projects/sixthledger.PNG";
 
 const projects = [
   {
     id: 1,
-    title: "Tradxsell.com",
+    title: "Tradxsell",
     description:
       "TradXSell is a secure online marketplace that connects buyers and sellers for seamless transactions of high-quality products",
     longDescription:
@@ -43,7 +44,7 @@ const projects = [
 
   {
     id: 3,
-    title: "Teskha.com",
+    title: "Teskha",
     description:
       "Teskha Technologies drives innovation in education with cutting-edge solutions, empowering institutions for digital transformation.",
     longDescription:
@@ -56,7 +57,7 @@ const projects = [
   },
   {
     id: 4,
-    title: "Bizzkonn.com",
+    title: "Bizzkonn",
     description:
       "BIZZKONN empowers businesses with innovative solutions to drive growth, enhance efficiency, and achieve long-term success globally",
     longDescription:
@@ -69,7 +70,7 @@ const projects = [
   },
   {
     id: 5,
-    title: "Lunacarepk.com",
+    title: "Lunacarepk",
     description:
       "Luna Care is an organic clothing brand creating soft, sustainable, and timeless apparel for little ones with comfort, quality, and eco-consciousness at its core.",
     longDescription:
@@ -95,7 +96,7 @@ const projects = [
   },
   {
     id: 7,
-    title: "Bonitanails.shop",
+    title: "Bonitanails",
     description:
       "Bonita is a premium nail care brand offering luxurious nail services and products designed to inspire confidence, creativity, and elegance.",
     longDescription:
@@ -108,13 +109,13 @@ const projects = [
   },
   {
     id: 8,
-    title: "Accobees.com",
+    title: "Accobee",
     description:
       "Accobee simplifies business financial management with expert bookkeeping, tax services, and innovative software solutions",
     longDescription:
       "At Accobee Accountants and Bookkeepers, we are driven by a mission to empower businesses by offering top-notch services that meet the unique financial needs of each client. Our aim is to simplify complex financial computations, reduce intricacies, and maintain the highest ethical standards to provide transparency in every aspect of business accounting. This enables businesses to make informed decisions with confidence.<br></br>We serve as a trusted partner for business owners in the UK and Pakistan, offering in-depth insights to ensure long-term sustainability and consistent growth, even amidst market shifts. Our core goal is to be a dependable ally, helping businesses not just survive but thrive in an ever-evolving landscape.<br></br>Our vision is to make professional financial management accessible to businesses of all sizes, particularly small-scale businesses. We are committed to delivering high-quality, affordable services that are easy to understand. We aim to foster financial literacy, promote financial growth, and ensure compliance with regulatory tax authorities, allowing our clients to focus on their core business activities while we take care of the paperwork.<br></br>In addition, we offer special discounts for women-owned businesses to help them succeed, reflecting our dedication to supporting diverse entrepreneurial ventures. Partnering with Accobee means choosing a path of financial clarity, compliance, and growth, all backed by a reliable team that is as committed to your success as you are",
     image: accobees,
-    client: "Accobees",
+    client: "Accobee",
     duration: "1 months",
     technologies: ["HTML", "CSS", "Javascript", "Bootstrap"],
     link: "https://accobees.com/",
@@ -131,6 +132,19 @@ const projects = [
     duration: "2 months",
     technologies: ["HTML", "CSS", "Javascript", "Bootstrap"],
     link: "Alrahid.com",
+  },
+  {
+    id: 10,
+    title: "Sixth Ledger",
+    description:
+      "Sixth Ledger is a financial company that offers services such as bookkeeping, payroll management, budgeting, forecasting, and year-end financial statements.",
+    longDescription:
+      "At Sixth Ledger, we combine expertise and advanced tools like QuickBooks and Xero to deliver comprehensive financial services. From accurate bookkeeping and custom Excel solutions to efficient payroll management, our team ensures every aspect of your business’s financial needs is handled with precision.<br></br>With professional services like budgeting and forecasting, year-end financial statements, and strategic competitor analysis, we empower startups and established enterprises alike to thrive in a competitive market.<br></br>Led by a team of experienced ACCA Affiliates in Pakistan, we prioritize accuracy, compliance, and efficiency. Partner with us for tailored financial solutions, ensuring clarity and success every step of the way.",
+    image: sixthledger,
+    client: "Sixth Ledger",
+    duration: "1 month",
+    technologies: ["React", "Node", "Express", "Mongodb"],
+    link: "https://sixthledger.com/",
   },
 ];
 
