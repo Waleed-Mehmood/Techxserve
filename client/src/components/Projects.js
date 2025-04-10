@@ -16,7 +16,7 @@ const Projects = () => {
       <Row className={styles.logoRow}>
         <Col xs={12} className={styles.logoContainer}>
           <div className={styles.logoTrack}>
-            {Array(15) // Duplicate the list 10 times for smooth scrolling
+            {Array(50) // Duplicate the list 10 times for smooth scrolling
               .fill([Logo1, Logo2, Logo3, Logo4, Logo6, Logo7, Logo8])
               .flat()
               .map((logo, index) => (
@@ -56,10 +56,10 @@ const Projects = () => {
               <Card className={styles.projectCard}>
                 <Card.Body>
                   <Card.Title className={styles.cardTitle}>
-                  Accobee
+                  Sixth Ledger
                   </Card.Title>
                   <Card.Text className={styles.cardText}>
-                  Accobee simplifies business financial management with expert bookkeeping, tax services, and innovative software solutions
+                  Sixth Ledger is a financial services company that helps businesses efficiently manage their financial needs. The company offers services such as bookkeeping, payroll management, budgeting, forecasting, and year-end financial statements.
                   </Card.Text>
                 </Card.Body>
               </Card>

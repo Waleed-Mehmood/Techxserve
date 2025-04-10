@@ -26,8 +26,8 @@
 .logoTrack {
   display: flex;
   align-items: center;
-  animation: scrollLogos 12s linear infinite;
-  width: 200%;
+  animation: scrollLogos 15s linear infinite;
+  width: 400%;
 }
 
 /* .logo {
